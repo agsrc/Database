@@ -1,19 +1,20 @@
 # Part I:
+
 ### Describe the organization and the purpose of the database to be designed
 
-This database is for a startup pizza company whose main purpose is to provide all the information related to pizza restaurants registered with the startup along with the entertainment order. Purpose of this project is to create well defined logical model that meets all the business logic constraints and easy to be upgraded in future as and when necessary.
+> This database is for a startup pizza company whose main purpose is to provide all the information related to pizza restaurants registered with the startup along with the entertainment order. Purpose of this project is to create well defined logical model that meets all the business logic constraints and easy to be upgraded in future as and when necessary.
 
 ### Identify and list the entity sets
-	APP_USER
-	 AVAIL
-	 B_OWNER
-	 E_ORDER
-	 ENTERTAINER
-	 H_CUSTOMER
-	 ORDERS
-	 PIZZA
-	 PIZZA_RESTURANT
-	 RELATION_PO
+>	APP_USER
+>	 AVAIL
+>	 B_OWNER
+>	 E_ORDER
+>	 ENTERTAINER
+>	 H_CUSTOMER
+>	 ORDERS
+>	 PIZZA
+>	 PIZZA_RESTURANT
+>	 RELATION_PO
 
 # Identify the list of attributes and the ID for each entity set (this will be the possible natural key).
 	APP_USER
