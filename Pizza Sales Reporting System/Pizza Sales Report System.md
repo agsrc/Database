@@ -202,20 +202,22 @@
   
 
 ### Using the Oracle Datamodeler, build a dataflow diagram for the “Pizza Sales Report System”.
-
+![DFL](https://github.com/agsrc/Database/blob/master/Pizza%20Sales%20Reporting%20System/PSRS%20Images/DFL.png)
 ### Using the Oracle Datamodeler build the EER diagram (conceptual design). All business rules must be entered into the Oracle Data Modeler.
-
+![EER](https://github.com/agsrc/Database/blob/master/Pizza%20Sales%20Reporting%20System/PSRS%20Images/EER.png)
 ### Proceed to convert the EER diagram into a Relational Diagram. Make sure all the constraints, naming convention, etc. have been followed in your Data Model.
-
+![Relational](https://github.com/agsrc/Database/blob/master/Pizza%20Sales%20Reporting%20System/PSRS%20Images/Relational.png)
 ### Proceed to generate the DDL
-
+- Processing part.
 ### Create a script similar the sample database schema “Create_HR_Database_Scheme.sql” to create your schema this assignment using the DDL created in the above step. This may require making updates in the Oracle Datamodeler to make sure all the needed REFERENTIAL INTEGRITY CONSTRAINTS are created (e.g. Primary Keys, UNIQUE Keys, Referential Integrity, NULL, NOT NULL, DEFAULT)
 
   [PSRS.sql](https://github.com/agsrc/Database/blob/master/Pizza%20Sales%20Reporting%20System/PSRS.sql)  
 
 ### Using the Oracle SQL Developer, create an Oracle database userid “<last-Name>_<first character of First name>_HWK2” in the Oracle database “. For example: fernandezr_HWK2
+![Oracle Database](https://github.com/agsrc/Database/blob/master/Pizza%20Sales%20Reporting%20System/PSRS%20Images/Oracle%20databse.png)
 
 ### Run the script that creates the database schema into your userid created above.
+    ![Directory in the server](https://github.com/agsrc/Database/blob/master/Pizza%20Sales%20Reporting%20System/PSRS%20Images/Directory.png)
   [PSRS.sql](https://github.com/agsrc/Database/blob/master/Pizza%20Sales%20Reporting%20System/PSRS.sql)  
 ### Create INSERT statement to insert at least 20 rows in each table. Make sure that you need to load the parent tables first to avoid errors.
 
@@ -232,18 +234,9 @@
 
 ### Create at least 5 delete and 5 update SQL statements.
 
-  
-
-DELETE
 
   [PSRS.sql](https://github.com/agsrc/Database/blob/master/Pizza%20Sales%20Reporting%20System/PSRS.sql)  
-  
 
-UPDATE
-
-  
-  [PSRS.sql](https://github.com/agsrc/Database/blob/master/Pizza%20Sales%20Reporting%20System/PSRS.sql)  
-  
 
 ### Build a PL/SQL procedure that creates a “hungry Customers Report”. The reports contains the name, address, date of sale, pizza type, cost, and at the end the total costs.
 
@@ -259,8 +252,9 @@ NOTE: the number of entities in your design could be larger that in the solution
   
 
 ### Create an Oracle RDS Instance
-
+![RDS Instance](https://github.com/agsrc/Database/blob/master/Pizza%20Sales%20Reporting%20System/PSRS%20Images/Oracle%20RDS%20instance.png)
 ### Connect to the Oracle RDS Database Schema to Execute steps “m” to “p” from part 1 to create the database schema in your new Oracle RDS instance.
 
+![Connecting to Oracle RDS instance using Oracle SQL developer](https://github.com/agsrc/Database/blob/master/Pizza%20Sales%20Reporting%20System/PSRS%20Images/connecting%20to%20RDS.png)
   
   [PSRS.sql](https://github.com/agsrc/Database/blob/master/Pizza%20Sales%20Reporting%20System/PSRS.sql)  
