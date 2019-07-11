@@ -1,2 +1,2 @@
 # Database
-Designing and evaluating data base schema for Pizza  and Wine Sales.
+Designing and evaluating database schema for Pizza Sales according to the startup needs.
